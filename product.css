@@ -1,0 +1,92 @@
+nav img {
+    width: 120px;
+    height: 60px;
+}
+
+.container-fluid {
+    height: 40px;
+    /* background-color: gainsboro; */
+}
+
+.cart img {
+    height: 350px;
+}
+
+.cart {
+    display: flex;
+    box-shadow: 2px 2px 10px rgb(155, 152, 152);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#addToCart {
+    padding: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(205, 197, 197);
+}
+
+#addToCart:hover {
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#rating-p {
+    display: flex;
+    gap: 10px;
+}
+
+.rating {
+    color: green;
+}
+
+.user_review {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews_imf {
+    height: auto;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+    /* border: 1px solid orange; */
+}
+
+.user {
+    font-size: 10px;
+    display: flex;
+    margin-left: 10px;
+    /* border: 1px solid green; */
+}
+
+.user_name {
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 40px;
+    line-height: 5px;
+    font-size: 12px;
+}
+
+.user i {
+    font-size: 35px;
+    margin-top: 18px;
+    color: gray;
+}
+
+.review {
+    padding-left: 20px;
+    /* border: 1px solid black; */
+}
+
+.review p {
+    font-size: 12px;
+}
